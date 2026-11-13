@@ -26,7 +26,7 @@ including the ones I discarded after testing them.
 | --- | --- | --- |
 | [**rossmann-sales**](https://github.com/Nasreddine-EL-MAMMERI/rossmann-sales) | Sales forecasting and store segmentation on 1.1M rows, from SQL exploration to KMeans clustering | RMSPE **19.1%** on temporal validation · **0.174** private on Kaggle · **3** store profiles validated against hold-out variables |
 | [**Sport-images-classification**](https://github.com/Nasreddine-EL-MAMMERI/Sport-images-classification) | 73-class sports image classification. EfficientNetB0 backbone used **frozen** — feature extraction, not fine-tuning | **95.7%** validation · **0.9176** private leaderboard · the 3.9-point validation-to-test gap is measured and explained |
-| [**Image-Classifier**](https://github.com/Nasreddine-EL-MAMMERI/Image-Classifier) | CNN trained from scratch, no pretrained weights, 4 animal classes | **84.8%** on Kaggle · 28th of 54 · run-to-run noise measured at ~4 points before comparing runs |
+| [**Image-Classifier**](https://github.com/Nasreddine-EL-MAMMERI/Image-Classifier) | CNN trained from scratch, no pretrained weights, 4 animal classes | **84.8%** on Kaggle · run-to-run noise measured at ~4 points before comparing runs |
 
 Every one of those repos carries its decision log: what I tried, what I measured,
 and what I dropped because the numbers did not support it.
@@ -44,7 +44,7 @@ Computer vision projects kept as-is — learning projects, not maintained:
 
 ### Currently
 
-Going deeper into computer vision: data augmentation, fine-tuning strategies,
+Going deeper into computer vision: data augmentation, fine-tuning strategies, Object detection
 and model evaluation. Next: NLP on French corpora and time series.
 
 ---
